@@ -31,6 +31,7 @@ const Web3ProviderNetwork = createWeb3ReactRoot(NetworkContextName)
 if (!!window.ethereum) {
   window.ethereum.autoRefreshOnNetworkChange = false
 }
+console.log('123')
 
 function Updaters() {
   return (
